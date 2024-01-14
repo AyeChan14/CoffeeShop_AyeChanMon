@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #918C88;
+}
+
+#home #container{
+    text-align: center;
+    line-height: 1.5;
+}
+#home #container h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px orangered;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+#home #container p{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#home #container button{
+    padding: 10px;
+    border-style: none;
+    background-color: orangered;
+
+    border-radius: 2.5px;
+}
+#home #container button:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+#nav{
+    background-color: black;
+    padding: 20px 0;
+}
+#nav ul{
+    padding-right: 50px;
+    text-align: right;
+}
+#nav ul li{
+    display: inline;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+#nav ul li a{
+    font-size: 22px;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 2px;
+}
+a.active,a:hover{
+    background-color: orangered;
+    transition: 0.3s;
+}
+
+/* menu section started */
+#menu #menu-container{
+    text-align: center;
+    margin-top: 35px;
+}
+#menu #menu-container h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.menu-category h3{
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.menu-category .menu_item{
+    float: left;
+    padding-left: 100px;
+}
+.menu-item-info{
+    line-height: 1.5;
+}
+.menu-item-info strong,.price{
+    font-size: 24px;
+    font-weight: 300;
+    /* text-shadow: 10px 10px 10px orangered; */
+}
+.menu-item-info em{
+    font-size: 20px;
+}
+
+/* About us section started */
+#about_us{
+    width: 100%;
+    border: 2px solid orangered;
+    box-shadow: 0px -0.5px 10px 5px orangered;
+}
+#about_us h1{
+    text-align: center;
+    margin: 50px 0 10px 0;
+    text-shadow: 7px 1px 10px orangered;
+}
+#about_us p::first-letter{
+    font-size: 30px;
+}
+#about_us .p1,.p2{
+    font-size: 20px;
+    text-indent: 25px;
+    color: black;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+/* contact section started */
+#contact{
+    text-align: center;
+}
+#contact h1{
+    margin: 50px 0 20px 0;
+}
+
+#contact .container{
+    width: 100%;
+    height: 400px;
+}
+
+#contact .container .ourcontact{
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+#contact .container .yourcontact{
+    float: right;
+    width: 60%;
+    height: 300px;
+   
+}
+#contact .container .ourcontact .box{
+    margin-top: 100px;
+    padding: 50px;
+    line-height: 1.5;
+}
+#contact .container .yourcontact .box{
+    background-color: gray;
+    margin-top: 100px;
+    padding: 50px;
+    border: 1px solid orangered;
+    box-shadow: 0 -0.5px 10px 5px orangered;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer .top{
+    font-size: 20px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    background-color: orangered;
+    color:white;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
