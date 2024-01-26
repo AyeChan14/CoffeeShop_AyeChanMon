@@ -24,7 +24,7 @@ It has four part which are home section, menu section, about us section and cont
 1.Clone the repository
 
 ```bash
-  git clone https://github.com/linhtetaungg/cafe-website.git
+  git clone https://github.com/AyeChan14/CoffeeShop_AyeChanMon.git
 ```
 
 2.Open the project in your preferred code editor.
